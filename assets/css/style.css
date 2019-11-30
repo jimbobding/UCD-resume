@@ -263,7 +263,7 @@ footer {
 
 .personal-info-item .key,
 .personal-info-item .value {
-    padding-right: 8px;
+    padding-right: 28px;
     display: inline-block;
 }
  
@@ -283,7 +283,7 @@ footer {
     font-weight: 700;
 }
 
-.personal-info-item  .value p {
+.personal-info-item  .value  {
     position: relative;
     width: 60%;
 }
@@ -311,6 +311,7 @@ footer {
 }
 
 
+
 /*--------------------------------------------Work history*/
 
 .history-heading {
@@ -327,7 +328,7 @@ footer {
 }
 
 .timeline-item p {
-    padding: 20;
+    padding: 0;
     margin: 0;
 }
 
@@ -356,6 +357,44 @@ footer {
      background: #fafafa;
 }
 
+
+
 .history-item {
     margin-bottom: 30px;
+}
+
+/*--------------------------------------------Contact form*/
+
+
+
+.contact-heading  {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px; 
+} 
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+
+/*--------------------------------------------Media Queries*/
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
